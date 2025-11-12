@@ -4,47 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estiloenpixeles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Libertinus+Keyboard&family=Love+Light&display=swap" rel="stylesheet">
     <title>Cambio Climático: Un Reto Global</title>
 </head>
 <body>
     <header>
         <h1>Cambio Climático: Un Reto Global</h1>
-        <div class="nav">
+        <div id="nav">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="agricultura-y-alimentos.html">Agricultura y alimentos</a></li>
+                <li><a href="index.html">Agricultura y alimentos</a></li>
             </ul>
         </div>
     </header>
     <main>
-        
-            <div class="layout-left">
+        <div id="layout-og">
+            <div id="layout-left">
                 <img id="img-cambioclimatico" src="img/Cambio-climatico.jpg" alt="Imagen representativa del cambio climático">
-                <h2 class="titulos">¿Qué es el cambio climático?</h2>
-                <div class="textopromedio">
+                <h2 class="titulo">¿Qué es el cambio climático?</h2>
+                <div class="text-content">
                     <p>El cambio climático es el conjunto de alteraciones a largo plazo en los patrones del clima de la Tierra. Aunque el planeta siempre ha experimentado variaciones naturales a lo largo de millones de años, lo que lo hace preocupante hoy es la velocidad con la que está ocurriendo y la clara relación con la actividad humana.</p>
                 </div>
-                <footer>
-                    <a href="https://www.youtube.com/watch?v=GxWohx1_VOw">Video Sobre el cambio climatico</a>
-                </footer>
+                <a id="enlace-fijo" href="https://www.youtube.com/watch?v=GxWohx1_VOw">Video Sobre el cambio climatico</a>
             </div>
-            <div class="layout-right">
-                <form class="boletin" action="#" method="post">
+            <div id="layout-right">
+                <form id="boletin" action="#" method="post">
                     <h3>Este formulario es para estar al tanto sobre el cambio climático</h3>
                     <p>Nombre:</p>
                     <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
                     <p>Apellidos:</p>
                     <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos">
                     <p>Tema de interés</p>
-                    <select name="intereses">
+                    <select name="intereses" id="intereses">
                         <option value=""></option>
                         <option value="Impacto en animales">Impacto en animales</option>
                         <option value="Bosques y reforestacion">Bosques y reforestación</option>
                         <option value="Transporte sostenible">Transporte sostenible</option>
                     </select>
-                    <button type="submit" class="enviar">Enviar</button>
+                    <button type="submit" id="enviar">Enviar</button>
                 </form>
             </div>
+        </div>
     </main>
+    <footer>
+        <p id="libertinus-keyboard-regular">Esta fuente es usada desde un enlace</p>
+        <p id="Jacquard12">Esta fuente ha sido descargada</p>
+        <img src="img/banner.png">
+    </footer>
 </body>
 </html>
