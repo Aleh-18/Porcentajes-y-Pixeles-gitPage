@@ -14,8 +14,8 @@ header {
     background: #8fff82;
     color: #333;
     text-align: center;
-    padding: 1.36%; /* 20px / 1475px * 100% */
-    border-bottom: 0.34%; /* 5px / 1475px * 100% */
+    padding: 20px;
+    border-bottom: 5px solid; /* 5px */
 }
 
 header h1 {
@@ -25,12 +25,12 @@ header h1 {
 #nav ul {
     list-style: none;
     padding: 0;
-    margin: 0.68% 0 0 0; /* 10px / 1475px * 100% */
+    margin: 10px 0 0 0;
 }
 
 #nav li {
     display: inline-block;
-    margin: 0 1.02% 0 0; /* 15px / 1475px * 100% */
+    margin: 0 15px 0 0;
 }
 
 #nav a {
@@ -46,9 +46,9 @@ header h1 {
 /* -------- INICIO LAYOUT IZQUIERDA -------- */
 #layout-left {
     width: 24.14%; /* 356px / 1475px *100% */
-    border: 0.14%; /* 2px / 1475px *100% */
-    border-radius: 0.54%; /* 8px / 1475px *100% */
-    padding: 1.36%; /* 20px / 1475px *100% */
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 20px;
     float: left;
     background-color: hotpink;
     height: 54.24%; /* 800px / 1475px *100% */
@@ -59,7 +59,7 @@ header h1 {
 #img-cambioclimatico {
     width: 88.76%; /* 316px / (356px - 40px padding*2) *100% */
     display: block;
-    margin: 2.81%; /* 10px / (356px - 40px padding*2) *100% */
+    margin: 10px;
 }
 
 .titulo {
@@ -80,9 +80,9 @@ header h1 {
 /* -------- INICIO LAYOUT DERECHA -------- */
 #layout-right {
     width: 69.92%; /* 1031px / 1475px *100% */
-    border: 0.14%; /* 2px / 1475px *100% */
-    border-radius: 0.54%; /* 8px / 1475px *100% */
-    padding: 1.36%; /* 20px / 1475px *100% */
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 20px;
     background-color: #4caf50;
     float: left;
 }
@@ -91,10 +91,10 @@ header h1 {
 #boletin {
     width: 32.96%; /* 340px / 1031px *100% */
     margin: 0 auto;
-    padding: 2.91%; /* 30px / 1031px *100% */
+    padding: 30px;
     background: #d1c4e9;
-    border: 0.19%; /* 2px / 1031px *100% */
-    border-radius: 0.97%; /* 10px / 1031px *100% */
+    border: 2px solid;
+    border-radius: 10px;
 }
 
 #boletin h3 {
@@ -104,17 +104,17 @@ header h1 {
 }
 
 .boletin p {
-    margin: 0.97% 0 0.49% 0; /* 10px y 5px / 1031px *100% */
+    margin: 10px 0 5px 0;
 }
 
 /* Inputs y select */
 #layout-right #boletin input[type="text"],
 #layout-right #boletin select {
     width: 85.21%; /* 280px / 328px (ancho util formulario = 340px - padding*2) *100% */
-    padding: 3.05% 3.66%; /* 10px y 12px / 328px *100% */
-    border: 0.30%; /* 1px / 328px *100% */
-    border-radius: 1.52%; /* 5px / 328px *100% */
-    margin-bottom: 3.05%; /* 10px / 328px *100% */
+    padding: 10px 12px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 /* Centrar dentro del formulario */
@@ -131,11 +131,11 @@ header h1 {
 /* Botón enviar ocupa todo el ancho de la caja del formulario */
 #layout-right #boletin #enviar {
     width: 85.21%; /* 280px / 328px *100% */
-    padding: 3.66% 6.10%; /* 12px y 20px / 328px *100% */
+    padding: 12px 20px;
     background-color: #4caf50;
     color: white;
     border: none;
-    border-radius: 1.52%; /* 5px / 328px *100% */
+    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -164,7 +164,7 @@ footer>img {
 
 
 main {
-    padding-bottom: 8.14%; /* 120px / 1475px *100% */
+    padding-bottom: 120px;
 }
 
 /*Fuentes*/
