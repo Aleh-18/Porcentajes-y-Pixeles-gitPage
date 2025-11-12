@@ -1,0 +1,192 @@
+/*Base*/
+body {
+    margin: 0 auto;
+    width: 100%; /* 1475px -> 100% */
+    font-family: Arial;
+    background: #f9fafb;
+    color: #333;
+    position: relative;
+}
+
+/* header y body tienen el mismo ancho */
+header {
+    width: 100%; /* 1475px -> 100% */
+    background: #8fff82;
+    color: #333;
+    text-align: center;
+    padding: 1.36%; /* 20px / 1475px * 100% */
+    border-bottom: 0.34%; /* 5px / 1475px * 100% */
+}
+
+header h1 {
+    margin: 0;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.68% 0 0 0; /* 10px / 1475px * 100% */
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0 1.02% 0 0; /* 15px / 1475px * 100% */
+}
+
+#nav a {
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #1b5e20;
+}
+
+/* -------- INICIO LAYOUT IZQUIERDA -------- */
+#layout-left {
+    width: 24.14%; /* 356px / 1475px *100% */
+    border: 0.14%; /* 2px / 1475px *100% */
+    border-radius: 0.54%; /* 8px / 1475px *100% */
+    padding: 1.36%; /* 20px / 1475px *100% */
+    float: left;
+    background-color: hotpink;
+    height: 54.24%; /* 800px / 1475px *100% */
+    position: relative;
+}
+
+/*Imagen dentro de layout-left*/
+#img-cambioclimatico {
+    width: 88.76%; /* 316px / (356px - 40px padding*2) *100% */
+    display: block;
+    margin: 2.81%; /* 10px / (356px - 40px padding*2) *100% */
+}
+
+.titulo {
+    text-align: center;
+}
+
+.textopromedio {
+    color: rgb(0,0,0);
+}
+
+#enlace-fijo {
+    position: absolute;
+    bottom: 0;
+}
+
+/* -------- FINAL LAYOUT IZQUIERDA -------- */
+
+/* -------- INICIO LAYOUT DERECHA -------- */
+#layout-right {
+    width: 69.92%; /* 1031px / 1475px *100% */
+    border: 0.14%; /* 2px / 1475px *100% */
+    border-radius: 0.54%; /* 8px / 1475px *100% */
+    padding: 1.36%; /* 20px / 1475px *100% */
+    background-color: #4caf50;
+    float: left;
+}
+
+/*FORMULARIO dentro del layout-right*/
+#boletin {
+    width: 32.96%; /* 340px / 1031px *100% */
+    margin: 0 auto;
+    padding: 2.91%; /* 30px / 1031px *100% */
+    background: #d1c4e9;
+    border: 0.19%; /* 2px / 1031px *100% */
+    border-radius: 0.97%; /* 10px / 1031px *100% */
+}
+
+#boletin h3 {
+    text-align: center;
+    color: #4527a0;
+    margin-top: 0;
+}
+
+.boletin p {
+    margin: 0.97% 0 0.49% 0; /* 10px y 5px / 1031px *100% */
+}
+
+/* Inputs y select */
+#layout-right #boletin input[type="text"],
+#layout-right #boletin select {
+    width: 85.21%; /* 280px / 328px (ancho util formulario = 340px - padding*2) *100% */
+    padding: 3.05% 3.66%; /* 10px y 12px / 328px *100% */
+    border: 0.30%; /* 1px / 328px *100% */
+    border-radius: 1.52%; /* 5px / 328px *100% */
+    margin-bottom: 3.05%; /* 10px / 328px *100% */
+}
+
+/* Centrar dentro del formulario */
+#layout-right #boletin p,
+#layout-right #boletin h3 {
+    text-align: center;
+}
+
+/* Texto escrito en el input nombre debe ser azul */
+#nombre {
+    color: blue;
+}
+
+/* Botón enviar ocupa todo el ancho de la caja del formulario */
+#layout-right #boletin #enviar {
+    width: 85.21%; /* 280px / 328px *100% */
+    padding: 3.66% 6.10%; /* 12px y 20px / 328px *100% */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 1.52%; /* 5px / 328px *100% */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#layout-right #boletin #enviar:hover {
+    background-color: #388e3c;
+}
+
+/* -------- FINAL LAYOUT DERECHA -------- */
+
+
+/*Footer imagen fija*/
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%; /* 1475px -> 100% */
+    height: 100px; 
+    clear: both; /* romper el float */
+}
+
+footer>img {
+    display: block;
+    width: 100%; /* 1475px -> 100% */
+    height: 100px; 
+}
+
+
+main {
+    padding-bottom: 8.14%; /* 120px / 1475px *100% */
+}
+
+/*Fuentes*/
+#libertinus-keyboard-regular {
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jacquard12';
+    src: url('Jacquard_12/Jacquard12-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Jacquard12 {
+  font-family: 'Jacquard12', system-ui;
+  font-weight: normal;
+  margin: auto;
+  text-align: center;
+  font-style: normal;
+}
